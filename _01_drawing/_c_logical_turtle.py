@@ -31,16 +31,16 @@ if __name__ == '__main__':
     window.setup(width=0.75, height=0.8, startx=0, starty=0)
     
     # 1. Make a new turtle
-    
+    jeremy = turtle.Turtle()
     # 2. Make your turtle's shape 'turtle', .shape('turtle')
-    
+    jeremy.shape('turtle')
     # 3. Set your turtle's color using .color('green') and .pencolor('blue')
-    
+    jeremy.color('green')
     # 4. Set and new width, length, and outline of our turtle
     #    myTurtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
-
+    jeremy.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
     # 5. Uncomment the following line and replace 'myTurtle' with your turtle
-    #myTurtle.onclick(turtleClicked)
+    #myTurtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)myTurtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screenClicked)
