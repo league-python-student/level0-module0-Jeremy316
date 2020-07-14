@@ -1,4 +1,4 @@
-import random
+-import random
 import turtle
 
 # Returns a random color!
@@ -18,17 +18,17 @@ if __name__ == '__main__':
     colors = ('red','blue','green','yellow','orange')
     
     # Make a new turtle
-    
+    jeremy = turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
-    
+    jeremy.shape('turtle')
     # Set the turtle speed to max (0)
-    
+    jeremy.speed(0)
     # Set the turtle width to 1
-    
+    jeremy.width(1)
     # Create a variable to hold the number of sides in a pentagon
-    
+    sides=5
     # Create a variable to be the angle of 360 divided by the sides variable
-    
+    sides=360
     # Use a for loop to repeat ALL the following lines of code 360 times. 
         
         # If the loop variable (i) is equal to 100, set the turtle width to 2
